@@ -1,0 +1,103 @@
+.popular {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 39px;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-bottom: 86px;
+}
+
+.popular__all {
+    font-family: "Roboto";
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444240;
+    display: block;
+    border-bottom:  1px solid #C4C0B6;
+    width: 110px;
+    margin-left: auto;
+    margin-bottom: 25px;
+    padding-bottom: 11px;
+    box-sizing: border-box;
+}
+
+.popular__title {
+    margin: 0;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.popular__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.popular__list-item {
+    width: 370px;
+    height: 467px;
+    background-color: #FDFDFB;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.popular__list-item:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.popular__item-title {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.popular__item-price {
+    font-family: "Prata";
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+
+
+.popular__item-detail {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+    margin-left: 68px;
+    position: relative;
+    text-decoration: none;
+}
+
+.popular__item-detail::before {
+    content: "";
+    width: 30px;
+    border: 1px solid #8B8371;
+    left: -60px;
+    top: 10px;
+    position: absolute;
+}
+
+.popular__item-image {
+    background-image: url('../../images/Ellipse.png');
+    background-repeat: no-repeat;
+    margin:0 auto;
+}
+

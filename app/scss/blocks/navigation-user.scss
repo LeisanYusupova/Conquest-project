@@ -1,0 +1,11 @@
+.navigation-user {
+    width: 99px; 
+}
+
+.navigation-user__list {
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}

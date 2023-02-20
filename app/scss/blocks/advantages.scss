@@ -1,0 +1,86 @@
+.advantages {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 52px;
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    background-image:  url('../../images/ellipse_decor1.png'), url('../../images/ellipse_decor2.png') , linear-gradient(to right, #F7F5EF 0%, #F7F5EF 30%,#FDFDFB 30% #FDFDFB 100%);
+    background-position-x: right, right ;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+
+.advantages__block {
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__image {
+    margin-bottom: 20px;
+}
+
+.advantages__slider {
+    position: relative;
+    text-align: center;
+}
+
+.advantages__slider::before {
+    content: "";
+    background-image: url("./img/arrow_left.png");
+    width: 15px;
+    height: 10px;
+    left: 47%;
+    top:50%;
+    position: absolute;
+  }
+
+  .advantages__slider::after {
+    content: "";
+    background-image: url("./img/arrow_right.png");
+    width: 5px;
+    height: 10px;
+    right: 47%;
+    position: absolute;
+  }
+
+.advantages__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__title {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    line-height: 42p;
+    font-weight: 400;
+    color: #1B1A17;
+}
+
+.advantages__description {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444240;
+    margin-bottom: 45px;
+}
+
+.advantages__catalog-link {
+    font-family: Roboto;
+    width: 205px;
+    height: 64px;
+    background-color: #D4B098;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    box-sizing: border-box;
+    padding: 26px 38px 26px 38px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
