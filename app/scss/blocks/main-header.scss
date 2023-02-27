@@ -1,0 +1,27 @@
+.main-header{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 31px 100px 28px 100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.main-header__navigation {
+    width: 30%;
+}
+.main-header__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header__link {
+    font-family: Roboto;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555248;
+}

@@ -1,0 +1,55 @@
+.social {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 81px 98px 90px 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social__block {
+    display: flex;
+    flex-direction: column;  
+}
+
+.social__container {
+    display: flex;
+    width: 629px;
+}
+
+.social__title {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    margin-bottom: 40px;
+}
+
+.social__information{
+    font-family: "Roboto";
+    width: 376px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #444240;
+    margin-bottom: 118px;
+}
+
+.social__container-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.social__list {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 93px;
+}
