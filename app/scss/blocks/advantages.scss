@@ -39,12 +39,11 @@
 .advantages__slider-button {
     border: none;
     background-color: transparent;
-}
 
-.advantages__slider-button:hover {
-    cursor: pointer;
+    &:hover {
+        cursor: pointer;
+    }
 }
-
 
 .advantages__container {
     display: flex;

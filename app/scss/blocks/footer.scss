@@ -8,10 +8,15 @@
     padding-bottom: 3%;
     display: flex;
     justify-content: space-between;
-}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-.footer li {
-    margin-bottom: 16px;
+    li {
+        margin-bottom: 16px;
+    }
 }
 
 .footer__contacts {
@@ -40,10 +45,4 @@
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 33px;
-}
-
-.footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
